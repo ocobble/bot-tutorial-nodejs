@@ -40,14 +40,17 @@ function respond() {
   }
 }
 
-function postMessage(counter) {
-  var botResponse, options, body, botReq;
+function postMessage() {
+  var botResponse, options, body, botReq, myRand;
 
   //botResponse = '18 naked cowboys in the showers at Ram Ranch! Big hard throbbing c*cks wanting to be sucked! 18 naked cowboys wanting to be f*cked! Cowboys in the showers at Ram Ranch! On their knees wanting to suck cowboy c*cks! Ram Ranch really rocks!';
 
 	//botResponse = cool();
-	counter = counter + 1;
-	botResponse = getverse();
+	//counter = counter + 1;
+	//botResponse = getverse();
+
+	myRand = Math.floor(Math.random() * 9);     // returns a random integer from 0 to 8
+	botResponse = verses[myRand];
   options = {
     hostname: 'api.groupme.com',
     path: '/v3/bots/post',
