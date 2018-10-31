@@ -86,6 +86,6 @@ function getverse() {
 		counter = 0;
 		return verses[9];
 	}
-	return verses[counter - 1];
+	return 'ram ranch test';
 }
 exports.respond = respond;
