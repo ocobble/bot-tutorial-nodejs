@@ -4,7 +4,7 @@ var cool = require('cool-ascii-faces');
 var botID = process.env.BOT_ID;
 
 var counter = 0;
-
+/*
 var verses = {
 "18 naked cowboys in the showers at Ram Ranch! Big hard throbbing c*cks wanting to be sucked! 18 naked cowboys wanting to be f*cked! Cowboys in the showers at Ram Ranch! On their knees wanting to suck 
 cowboy c*cks! Ram Ranch really rocks!",
@@ -15,6 +15,7 @@ cowboy c*cks! Ram Ranch really rocks!",
 "18 naked cowboys in the showers at Ram Ranch! Big hard throbbing c*cks wanting to be sucked! 18 naked cowboys wanting to be f*cked! Cowboys in the showers at Ram Ranch! On their knees wanting to suck 
 cowboy c*cks! Ram Ranch really rocks!",
 }
+*/
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
