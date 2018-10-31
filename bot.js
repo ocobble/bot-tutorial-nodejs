@@ -27,7 +27,7 @@ var verses = {
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /Ram ranch/;
+      botRegex = /ram ranch/;
 
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
