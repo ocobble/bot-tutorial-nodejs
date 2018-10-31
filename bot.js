@@ -47,7 +47,7 @@ function postMessage() {
 //wanting to suck cowboy c*cks! Ram Ranch really rocks!';
 
 	//botResponse = cool();
-
+	counter = counter + 1;
 	botResponse = getverse();
   options = {
     hostname: 'api.groupme.com',
@@ -79,8 +79,7 @@ function postMessage() {
   botReq.end(JSON.stringify(body));
 }
 
-function getverse() {
-	counter = counter + 1;
+function getverse(counter) {
 	if (counter == 10)
 	{
 		counter = 0;
