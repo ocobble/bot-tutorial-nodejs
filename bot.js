@@ -49,6 +49,8 @@ function postMessage() {
 	//counter = counter + 1;
 	//botResponse = getverse();
 
+	// Here's a random comment!
+
 	myRand = Math.floor(Math.random() * 9);     // returns a random integer from 0 to 8
 	botResponse = verses[myRand];
   options = {
