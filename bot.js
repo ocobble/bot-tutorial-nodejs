@@ -6,7 +6,7 @@ var botID = process.env.BOT_ID;
 var counter = 0;
 
 var verses = [
-"18 naked cowboys in the showers at Ram Ranch! Big hard throbbing c*cks wanting to be sucked! 18 naked cowboys wanting to be f*cked! Cowboys in the showers at Ram Ranch! On their knees wanting to suck cowboy c*cks!Ram Ranch really rocks!",
+"18 naked cowboys in the showers at Ram Ranch! Big hard throbbing c*cks wanting to be sucked! 18 naked cowboys wanting to be f*cked! Cowboys in the showers at Ram Ranch! On their knees wanting to suck cowboy c*cks! Ram Ranch really rocks!",
 
 "Hot hard buff cowboys their c*cks throbbing hard! 18 more wild cowboys out in the yard! Big bulging c*cks ever so hard!",
 
