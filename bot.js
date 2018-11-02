@@ -22,7 +22,9 @@ var verses = [
 
 "18 naked cowboys in the showers at Ram Ranch! Big hard throbbing c*cks wanting to be sucked! 18 naked cowboys wanting to be f*cked! Cowboys in the showers at Ram Ranch! On their knees wanting to suck cowboy c*cks! Ram Ranch really rocks!",
 
-"Big hard throbbing c*cks getting sucked real deep! Cowboys even getting f*cked in their sleep! Ram Ranch, it rocks! Cowboys love big hard throbbing c*cks!"
+"Big hard throbbing c*cks getting sucked real deep! Cowboys even getting f*cked in their sleep! Ram Ranch, it rocks! Cowboys love big hard throbbing c*cks!",
+
+"Yeah 28 US Marines pulling up in black Ford Raptor Trucks! Helicopters landed! Ram Ranch is under seige under lockdown! US Marines are gonna f*ck ram ranch cowboy butts! Looking for Prince Harry! Gunna fuck prince harrys butt! Yeah wild buff! Cool US Marines gonna f*ck cowboy butts!"
 ];
 
 function respond() {
@@ -51,7 +53,8 @@ function postMessage() {
 
 	// Here's a random comment!
 
-	myRand = Math.floor(Math.random() * 9);     // returns a random integer from 0 to 8
+	myRand = Math.floor(Math.random() * verses.length);     // 
+returns a random integer from 0 to 8
 	botResponse = verses[myRand];
   options = {
     hostname: 'api.groupme.com',
