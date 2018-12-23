@@ -19,11 +19,10 @@ function respond() {
     this.res.writeHead(200);
     postMessage(1);
     this.res.end();
-  } else if (request.text && antiQTRegex.test(request.txt)) {
+  }  else if (request.text && antiQTRegex.test(request.txt)) {
     this.res.writeHead(200);
     postMessage(2);
     this.res.end();
-  }
   } else {
     console.log("don't care");
     this.res.writeHead(198);
