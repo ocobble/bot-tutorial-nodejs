@@ -12,8 +12,8 @@ var verses = [
 
 function respond() {
   var   request = JSON.parse(this.req.chunks[0]),
-        QTRegex = /QT/,
-	antiQTRegex = /No it's not/;
+        QTRegex = /QT/;
+  var	antiQTRegex = /No it's not/;
 
   if(request.text && QTRegex.test(request.text)) {
     this.res.writeHead(200);
