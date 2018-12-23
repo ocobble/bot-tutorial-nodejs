@@ -10,8 +10,9 @@ var verses = [
 ];
 
 function respond() {
-  var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /QT/;
+  var   request = JSON.parse(this.req.chunks[0]),
+        QTRegex = /QT/i,
+	antiQTRegex = /No it's not/;
 
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
