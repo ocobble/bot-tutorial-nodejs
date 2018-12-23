@@ -6,21 +6,22 @@ var botID = process.env.BOT_ID;
 var counter = 0;
 
 var verses = [
-"It's just a gas station"
+"It's just a gas station",
+"Yes it is"
 ];
 
 function respond() {
   var   request = JSON.parse(this.req.chunks[0]),
-        QTRegex = /QT/i,
+        QTRegex = /QT/,
 	antiQTRegex = /No it's not/;
 
   if(request.text && QTRegex.test(request.text)) {
     this.res.writeHead(200);
-    postMessage();
+    postMessage(1);
     this.res.end();
   } else if (request.text && antiQTRegex.test(request.txt)) {
     this.res.writeHead(200);
-    postMessage();
+    postMessage(2);
     this.res.end();
   }
   } else {
@@ -30,7 +31,7 @@ function respond() {
   }
 }
 
-function postMessage() {
+function postMessage(val) {
   var botResponse, options, body, botReq, myRand;
 
   //botResponse = '18 naked cowboys in the showers at Ram Ranch! Big hard throbbing c*cks wanting to be sucked! 18 naked cowboys wanting to be f*cked! Cowboys in the showers at Ram Ranch! On their knees wanting to suck cowboy c*cks! Ram Ranch really rocks!';
