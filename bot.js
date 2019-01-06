@@ -24,10 +24,13 @@ var verses = [
 
 "Big hard throbbing c*cks getting sucked real deep! Cowboys even getting f*cked in their sleep! Ram Ranch, it rocks! Cowboys love big hard throbbing c*cks!",
 
-"Yeah 28 US Marines pulling up in black Ford Raptor Trucks! Helicopters landed! Ram Ranch is under seige under lockdown! US Marines are gonna f*ck ram ranch cowboy butts! Looking for Prince Harry! Gunna fuck prince harrys butt! Yeah wild buff! Cool US Marines gonna f*ck cowboy butts!"
+"Yeah 28 US Marines pulling up in black Ford Raptor Trucks! Helicopters landed! Ram Ranch is under seige under lockdown! US Marines are gonna f*ck ram ranch cowboy butts! Looking for Prince Harry! Gunna f*ck prince harrys butt! Yeah wild buff! Cool US Marines gonna f*ck cowboy butts!",
+
+"Oh, yo! WHat do we have here? University of Texas Austin drum corps! Going up to the ram ranch spaceship, gonna become boys to save the boys up in the ram ranch spacecraft! Being buttf*cked by the black c*ck gang, black cock gang f*ckin and f*ckin and f*ckin and f*ckin!",
+
+"Yo! Allicat, Clay, Tyler, and Andrew! Sydney and Scott Rich! Jason and Micah! Yo, super cool jock boys from Texas! Gonna f*ckin f*ckin f*ck black c*ck gang! Yo! Huge hard Texas cowboy c*cks hard as rocks, gonna f*ckin f*ckin f*ck black cock gang"
 
 ];
-
 function respond() {
   var   request = JSON.parse(this.req.chunks[0]),
         myRegex = /ram ranch/;
