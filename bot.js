@@ -56,7 +56,6 @@ function postMessage() {
 
 	myRand = Math.floor(Math.random() * verses.length); // returns a random integer from 0 to 8
 	botResponse = verses[myRand];
-	botResponse = verses[0];
   options = {
     hostname: 'api.groupme.com',
     path: '/v3/bots/post',
