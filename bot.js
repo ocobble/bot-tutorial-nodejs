@@ -1,5 +1,5 @@
 var HTTPS = require('https');
-var HTTP = require('http');
+var http = require('http');
 var cool = require('cool-ascii-faces');
 
 var botID = process.env.BOT_ID;
@@ -35,7 +35,7 @@ var verses = [
 
 setInterval(function() {
     http.get("http://grant-macdonald-bot.herokuapp.com/");
-}, 4500000);
+}, 3600000);
 
 function respond() {
   var   request = JSON.parse(this.req.chunks[0]),
