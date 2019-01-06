@@ -24,7 +24,7 @@ var verses = [
 
 "Big hard throbbing c*cks getting sucked real deep! Cowboys even getting f*cked in their sleep! Ram Ranch, it rocks! Cowboys love big hard throbbing c*cks!",
 
-"Yeah 28 US Marines pulling up in black Ford Raptor Trucks! Helicopters landed! Ram Ranch is under seige under lockdown! US Marines are gonna f*ck ram ranch cowboy butts! Looking for Prince Harry! Gunna f*ck prince harrys butt! Yeah wild buff! Cool US Marines gonna f*ck cowboy butts!",
+"Yeah 28 US Marines pulling up in black Ford Raptor Trucks! Helicopters landed! Ram Ranch is under seige under lockdown! US Marines are gonna f*ck Ram Ranch cowboy butts! Looking for Prince Harry! Gunna f*ck prince harrys butt! Yeah wild buff! Cool US Marines gonna f*ck cowboy butts!",
 
 "Oh, yo! WHat do we have here? University of Texas Austin drum corps! Going up to the Ram Ranch spaceship! Gonna become boys to save the boys up in the Ram Ranch spacecraft! Being buttf*cked by the black c*ck gang, black cock gang f*ckin and f*ckin and f*ckin and f*ckin!",
 
