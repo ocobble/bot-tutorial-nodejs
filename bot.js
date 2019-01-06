@@ -1,4 +1,5 @@
 var HTTPS = require('https');
+var HTTP = require('http');
 var cool = require('cool-ascii-faces');
 
 var botID = process.env.BOT_ID;
@@ -31,6 +32,11 @@ var verses = [
 "Yo! Allicat, Clay, Tyler, and Andrew! Sydney and Scott Rich! Jason and Micah! Yo, super cool jock boys from Texas! Gonna f*ckin f*ckin f*ck black c*ck gang! Yo! Huge hard Texas cowboy c*cks hard as rocks, gonna f*ckin f*ckin f*ck black cock gang"
 
 ];
+
+setInterval(function() {
+    http.get("http://grant-macdonald-bot.herokuapp.com/");
+}, 4500000);
+
 function respond() {
   var   request = JSON.parse(this.req.chunks[0]),
         myRegex = /ram ranch/;
