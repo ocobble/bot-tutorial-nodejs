@@ -26,7 +26,7 @@ var verses = [
 
 "Yeah 28 US Marines pulling up in black Ford Raptor Trucks! Helicopters landed! Ram Ranch is under seige under lockdown! US Marines are gonna f*ck Ram Ranch cowboy butts! Looking for Prince Harry! Gunna f*ck prince harrys butt! Yeah wild buff! Cool US Marines gonna f*ck cowboy butts!",
 
-"Oh, yo! WHat do we have here? University of Texas Austin drum corps! Going up to the Ram Ranch spaceship! Gonna become boys to save the boys up in the Ram Ranch spacecraft! Being buttf*cked by the black c*ck gang, black cock gang f*ckin and f*ckin and f*ckin and f*ckin!",
+"Oh, yo! What do we have here? University of Texas Austin drum corps! Going up to the Ram Ranch spaceship! Gonna become boys to save the boys up in the Ram Ranch spacecraft! Being buttf*cked by the black c*ck gang, black cock gang f*ckin and f*ckin and f*ckin and f*ckin!",
 
 "Yo! Allicat, Clay, Tyler, and Andrew! Sydney and Scott Rich! Jason and Micah! Yo, super cool jock boys from Texas! Gonna f*ckin f*ckin f*ck black c*ck gang! Yo! Huge hard Texas cowboy c*cks hard as rocks, gonna f*ckin f*ckin f*ck black cock gang"
 
