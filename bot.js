@@ -35,7 +35,7 @@ var verses = [
 
 setInterval(function() {
     http.get("http://grant-macdonald-bot.herokuapp.com/");
-}, 3600000);
+}, 300000);
 
 function respond() {
   var   request = JSON.parse(this.req.chunks[0]),
