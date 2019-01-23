@@ -34,7 +34,13 @@ var verses = [
 ];
 
 setInterval(function() {
-    http.get("http://grant-macdonald-bot.herokuapp.com/");
+    // Only wake up if not between 2 and 8
+    var currHour = floor(Date.now() / 3600000) % 24;
+    console.log("The time is " + currHour);
+    if (currHour < 2 || currHour > 8)
+    {
+      http.get("http://grant-macdonald-bot.herokuapp.com/");
+    }
 }, 1800000);
 
 function respond() {
