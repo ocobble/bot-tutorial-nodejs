@@ -37,7 +37,7 @@ setInterval(function() {
     // Only wake up if not between 2 and 8
     var currHour = Math.floor(Date.now() / 3600000) % 24 - 6;
     console.log("The time is " + currHour);
-    if (currHour < 3 || currHour > 9)
+    if (currHour < 2 || currHour > 9)
     {
       http.get("http://grant-macdonald-bot.herokuapp.com/");
     }
