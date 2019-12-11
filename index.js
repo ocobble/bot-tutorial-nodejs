@@ -29,6 +29,6 @@ server.listen(port);
 
 function ping() {
   this.res.writeHead(200);
-  var currHour = Math.floor(Date.now() / 3600000) % 24 - 6;
+  var currHour = Math.floor(Date.now() / 3600000) % 24 - 5;
   this.res.end("Hello from Grant! The hour is " + currHour);
 }

@@ -4,6 +4,8 @@
 
 This project shows the capability of a bot to react to messages sent within a group.
 
+To wake Grant up, the link is: http://grant-macdonald-bot.herokuapp.com/
+
 ## Contents
 
   * [Quickly get our sample bot up and running in your groups](#deploy)
